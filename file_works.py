@@ -23,7 +23,6 @@ Cам файл visit_log.csv* изменять не надо.
 import json
 from pathlib import Path
 
-print('Hello files!')
 path_1 = Path("Files/purchase_log.txt")
 
 with open(path_1, encoding='utf-8') as f_purchase:
